@@ -1,0 +1,81 @@
+.input{
+    outline: none;
+    background-color: rgb(18, 62, 75);
+    border: 2px solid rgb(66, 176, 210);
+    color: white; 
+    border-radius: 4px;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    text-transform: uppercase;
+    transition: .4s all;
+}
+.input:hover{
+    background-color: white;
+    border: 2px solid  rgb(66, 176, 210);
+    color:  rgb(66, 176, 210);
+}
+
+.la{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.full{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgb(18, 151, 98),rgb(25, 201, 172));
+    gap: 50px;
+}
+
+.btn{
+    height: 40px;
+    background-color: rgb(18, 62, 75);
+    border: 2px solid rgb(66, 176, 210);
+    color: white; 
+    width: 100px;
+    transition: .4s all;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 2px solid  rgb(66, 176, 210);
+    color:  rgb(66, 176, 210);
+}
+
+.full2{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sc{
+    color: white;
+    font-size: 25px;
+    transition: .5s all;
+    text-transform: uppercase;
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sc:hover{
+    scale: 1.3;
+}
+
+.img{
+    width: 400px;
+    border-radius: 30px;
+    transition: .5s all;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img:hover{
+    scale: 1.1;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
